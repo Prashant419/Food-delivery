@@ -1,7 +1,13 @@
 package com.driver.shared.dto;
 
-import java.io.Serializable;
+import lombok.*;
 
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class FoodDto{
 
 	private long id;
