@@ -1,15 +1,6 @@
 package com.driver.model.response;
 
-import lombok.*;
 
-import javax.persistence.Entity;
-
-
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
 public class OrderDetailsResponse {
 
 	private String orderId;
